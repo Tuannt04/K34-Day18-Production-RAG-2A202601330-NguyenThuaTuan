@@ -27,7 +27,7 @@ SEMANTIC_THRESHOLD = 0.85
 BM25_TOP_K = 20
 DENSE_TOP_K = 20
 HYBRID_TOP_K = 20
-RERANK_TOP_K = 3
+RERANK_TOP_K = 5
 
 # --- Paths ---
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
