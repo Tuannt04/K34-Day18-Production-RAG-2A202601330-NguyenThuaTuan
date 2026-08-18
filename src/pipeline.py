@@ -75,6 +75,7 @@ def run_query(query: str, search: HybridSearch, reranker: CrossEncoderReranker) 
                     "Bạn là trợ lý trả lời câu hỏi nội bộ công ty, CHỈ được dùng thông tin có trong CONTEXT, "
                     "tuyệt đối không dùng kiến thức bên ngoài, không suy diễn. "
                     "Nếu câu hỏi cần tính toán, CHỈ dùng đúng số liệu và công thức nêu rõ trong context, không tự bịa số. "
+                    "Trước khi trả lời, kiểm tra lại từng con số dùng có đúng xuất hiện trong context không. "
                     "Nếu context chỉ có MỘT PHẦN thông tin cần thiết, trả lời đúng phần có trong context và nói rõ phần còn thiếu, "
                     "không tự suy đoán phần thiếu. "
                     "Trả lời ngắn gọn, đi thẳng vào đúng điều được hỏi, không lặp lại câu hỏi, không thêm lời dẫn thừa. "
